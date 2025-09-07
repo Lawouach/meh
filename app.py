@@ -15,4 +15,3 @@ def read_root():
 def read_item(item_id: int, q: Union[str, None] = None):
     return httpx.get("https://www.google.com").text
 
-
